@@ -14,7 +14,7 @@ import immutable from './immutable.vue'
 import vforComponent from './vforComponent.vue'
 import vforObject from './vforObject.vue'
 import vmodelModifier from './vmodelModifier.vue'
-import onUnmounted from './onunmounted.vue'
+import boredum from './boredum.vue'
 const routes = {
   '/' : SimpleVmodel,
   '/NotFound': NotFound,
@@ -30,7 +30,7 @@ const routes = {
   '/vforObject' : vforObject,
   '/vforComponent' : vforComponent,
   '/vmodelModifier' : vmodelModifier,
-  '/onUnmounted' : onUnmounted,
+  '/boredum' : boredum,
 }
 const currentPath = ref(window.location.hash)
 window.addEventListener('hashchange', () => {
@@ -59,7 +59,7 @@ const currentView = computed(() => {
   <a href="#/vforObject">vforObject</a> |
   <a href="#/vforComponent">vforComponent</a> |
   <a href="#/vmodelModifier">v-model modifiers</a> |
-  <a href="#/onUnmounted">onUnmounted</a>
+  <a href="#/boredum">onUnmounted</a>
   <br ><br >
   <component :is="currentView"  />
 </template>
