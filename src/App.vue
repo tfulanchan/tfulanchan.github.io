@@ -10,7 +10,7 @@ import watcha from './watch.vue'
 import SimpleVmodel from './simpleVmodel.vue'
 import vforif from './vforif.vue'
 import vforList from './vforList.vue'
-import immutable from './immutable.vue'
+// import immutable from './immutable.vue'
 import vforComponent from './vforComponent.vue'
 import vforObject from './vforObject.vue'
 import vmodelModifier from './vmodelModifier.vue'
@@ -26,7 +26,7 @@ const routes = {
   '/vforif' : vforif,
   '/vforList' : vforList,
   '/count' : count,
-  '/immutable' : immutable,
+  // '/immutable' : immutable,
   '/vforObject' : vforObject,
   '/vforComponent' : vforComponent,
   '/vmodelModifier' : vmodelModifier,
@@ -55,7 +55,6 @@ const currentView = computed(() => {
   <a href="#/vforif">maintaining state</a> |
   <a href='#/vforList'>vforList</a> |
   <a href='#/count'>count</a> |
-  <a href="#/immutable">immutable</a> |
   <a href="#/vforObject">vforObject</a> |
   <a href="#/vforComponent">vforComponent</a> |
   <a href="#/vmodelModifier">v-model modifiers</a> |
