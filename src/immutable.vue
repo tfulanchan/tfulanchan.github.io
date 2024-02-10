@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { useImmer } from './immer.js'
   
 const [items, updateItems] = useImmer([
@@ -34,4 +34,4 @@ function toggleItem(index) {
 .done {
   text-decoration: line-through;
 }
-</style>
+</style> -->
